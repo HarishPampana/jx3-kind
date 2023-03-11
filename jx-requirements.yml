@@ -20,13 +20,13 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "kdev.procco.net"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
-      email: ""
-      enabled: false
-      production: false
+      email: "harishpampana@gmail.com"
+      enabled: true
+      production: true
   repository: bucketrepo
   secretStorage: local
   vault: {}
