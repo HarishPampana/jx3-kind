@@ -5,11 +5,11 @@ spec:
     enabled: false
     schedule: ""
   cluster:
-    chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+    chartRepository: https://github.com/HarishPampana/jx3-kind.git
     clusterName: kind
     devEnvApprovers:
-    - todo
-    environmentGitOwner: todo
+    - harishpampana
+    environmentGitOwner: harishpampana
     gitKind: github
     gitName: github
     gitServer: https://github.com
